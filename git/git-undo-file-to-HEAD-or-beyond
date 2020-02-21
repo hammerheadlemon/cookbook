@@ -1,0 +1,1 @@
+git checkout HEAD^ file/to/overwrite (you can use HEAD^1 the same or HEAD^2 for second to last)

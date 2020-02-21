@@ -1,0 +1,1 @@
+git diff single file from git fetched remote: `git diff master origin/master -- zshenv`

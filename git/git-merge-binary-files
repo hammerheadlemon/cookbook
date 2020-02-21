@@ -1,0 +1,10 @@
+To choose a binary file to use in git if you hit
+upon a conflict situation, then do this when you get the merge
+warning:
+
+git checkout --ours binaryfile.bin (to use our version)
+git checkout --theirs binaryfile.bin (to use the one in branch you are merging)
+
+Then:
+
+git add binaryfile.bin to add, then commit it, and you've chosen your file

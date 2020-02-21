@@ -1,0 +1,1 @@
+To do an annotated tag in git, git tag -a v0.1 -m "message"

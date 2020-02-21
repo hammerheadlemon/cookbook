@@ -1,0 +1,1 @@
+Find commit where a file was added in git - git log --diff-filter=A -- foo.js

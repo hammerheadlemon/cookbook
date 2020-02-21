@@ -1,0 +1,5 @@
+git rebase --interactive HEAD~2 (as many commits as you want to see in the squash dialogue).
+The most recent commits are at the bottom of this list.
+You pick the earliest commit you want to retain and then below that, change pick to squash.
+You can do this with vim-fugitive with :Git rebase --interactive HEAD~2.
+:x to save and close the file
