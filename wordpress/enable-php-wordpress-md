@@ -1,0 +1,2 @@
+After upgrading your Wordpress server, make sure you do `a2enmod php7.x` to get PHP working again and prevent the white screen of death.
+Make sure to `sudo systemctl restart apache2` afterwards.
